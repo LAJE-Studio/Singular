@@ -5,6 +5,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singular-Root", "Singular-Root", "{C0471636-2A49-4B2D-A6A9-6018ED0CA36F}"
 ProjectSection(SolutionItems) = preProject
 	.gitignore = .gitignore
+	README.md = README.md
+	LICENSE.md = LICENSE.md
 EndProjectSection
 EndProject
 Global

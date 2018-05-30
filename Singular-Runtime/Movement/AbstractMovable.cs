@@ -2,7 +2,7 @@
 using UnityEngine;
 
 namespace Singular.Movement {
-    public abstract class AbstractMovable : AbstractOwnable, IMovable {
+    public abstract class AbstractMovable : AbstractControllable, IMovable {
         [SerializeField]
         private Motor motor;
 

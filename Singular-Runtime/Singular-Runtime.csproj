@@ -40,14 +40,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractOwnable.cs" />
+    <Compile Include="AbstractControllable.cs" />
     <Compile Include="Input\IInputSource.cs" />
     <Compile Include="Input\InputAction.cs" />
-    <Compile Include="IOwnable.cs" />
-    <Compile Include="IOwner.cs" />
+    <Compile Include="IControllable.cs" />
+    <Compile Include="IController.cs" />
     <Compile Include="Movement\AbstractMovable.cs" />
     <Compile Include="Movement\IMovable.cs" />
     <Compile Include="Movement\Motors\Motor.cs" />
+    <Compile Include="NativePlayerController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
